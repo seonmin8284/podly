@@ -1,0 +1,314 @@
+-- Merging decision tree log ---
+application
+INJECTED from D:\podly\android\app\src\main\AndroidManifest.xml:7:5-57:19
+REJECTED from [:share_plus] D:\podly\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-35:19
+REJECTED from [:url_launcher_android] D:\podly\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
+REJECTED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\bb9d34d5358e10572c94587d77779ad6\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+REJECTED from [androidx.window:window:1.2.0] C:\Users\seonm\.gradle\caches\transforms-3\c5bb16da9e7b1db1fb696192af869e68\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
+REJECTED from [androidx.core:core:1.13.1] C:\Users\seonm\.gradle\caches\transforms-3\a3e6b81c80496f6242e1a546865ac5d0\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+REJECTED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\seonm\.gradle\caches\transforms-3\21a5ebb5a524ebd8de7a2e3bba375973\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+REJECTED from [androidx.startup:startup-runtime:1.1.1] C:\Users\seonm\.gradle\caches\transforms-3\768dc506b50a3b1885cbb9ad3a0c2aae\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+REJECTED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\seonm\.gradle\caches\transforms-3\5c9a19ace2a9919883e756b76fba1fba\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:name
+		INJECTED from D:\podly\android\app\src\main\AndroidManifest.xml
+manifest
+ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:1:1-72:12
+INJECTED from D:\podly\android\app\src\main\AndroidManifest.xml:1:1-72:12
+INJECTED from D:\podly\android\app\src\main\AndroidManifest.xml:1:1-72:12
+INJECTED from D:\podly\android\app\src\main\AndroidManifest.xml:1:1-72:12
+MERGED from D:\podly\android\app\src\main\AndroidManifest.xml:1:1-72:12
+MERGED from [:app_links] D:\podly\build\app_links\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:audio_service] D:\podly\build\audio_service\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:just_audio] D:\podly\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:audio_session] D:\podly\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:audiotagger] D:\podly\build\audiotagger\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:device_info_plus] D:\podly\build\device_info_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:file_picker] D:\podly\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [:flutter_archive] D:\podly\build\flutter_archive\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_plugin_android_lifecycle] D:\podly\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_tts] D:\podly\build\flutter_tts\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:on_audio_query_android] D:\podly\build\on_audio_query_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:package_info_plus] D:\podly\build\package_info_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:path_provider_android] D:\podly\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:permission_handler_android] D:\podly\build\permission_handler_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:share_plus] D:\podly\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-37:12
+MERGED from [:sqflite] D:\podly\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:url_launcher_android] D:\podly\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.media2:media2-session:1.2.1] C:\Users\seonm\.gradle\caches\transforms-3\f6bd443e452ba86bbd9b19f8ccf801fd\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.media2:media2-common:1.2.1] C:\Users\seonm\.gradle\caches\transforms-3\c98c2aa6f1a6a4dfca8f80341c6b4979\transformed\jetified-media2-common-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.6.0] C:\Users\seonm\.gradle\caches\transforms-3\1bc68864941e3325fce4a6235fb306bd\transformed\media-1.6.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\0d18fa856fe62f42f9fa9954848e59c6\transformed\jetified-exoplayer-dash-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\1e384b3a506110113dfb7d513e7c773f\transformed\jetified-exoplayer-hls-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\8849cb01579d2d744c4785e0c6c1bf28\transformed\jetified-exoplayer-smoothstreaming-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\8f654cd50c8c50f69b687fd5d7e8bdf1\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\seonm\.gradle\caches\transforms-3\3755ad51a16cffd0fd2bdd33973f3534\transformed\fragment-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\seonm\.gradle\caches\transforms-3\56231e09ad1d05b3b3db7baceb9d1890\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\c01818efc5384c5ebe19aff1f8b605cd\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\c183f4fac09b44759fd6828f31212e63\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\c8c8d1e9b966ec8e08ebdea5d12fa83d\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\0ea358e3b8e1785c42ecd5406de4cfbc\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\seonm\.gradle\caches\transforms-3\3145243440544f9a5b1f443239ff55f7\transformed\jetified-activity-1.8.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\ff15654e0bbf596d49edf77925cbbc52\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\bb9d34d5358e10572c94587d77779ad6\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\4b7f5ffd0db640b85bd2ee36562c1306\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\seonm\.gradle\caches\transforms-3\8f30c94a2cf1bbfe5d80efce576be3b2\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\seonm\.gradle\caches\transforms-3\c9994c97fe31d00fbf1279363e93dabb\transformed\browser-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window:1.2.0] C:\Users\seonm\.gradle\caches\transforms-3\c5bb16da9e7b1db1fb696192af869e68\transformed\jetified-window-1.2.0\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] C:\Users\seonm\.gradle\caches\transforms-3\e3ad1c7d4bb4de9b0b32216264cb6f59\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\seonm\.gradle\caches\transforms-3\bebcdf59e6a92b2442c50133071ef375\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\seonm\.gradle\caches\transforms-3\9474196671e6d8d8b6c64bc244f62704\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\seonm\.gradle\caches\transforms-3\a3e6b81c80496f6242e1a546865ac5d0\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\02d3fc920e9a82283ba2729027f1244b\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\seonm\.gradle\caches\transforms-3\8f8c96bd3bbf27d77a42777ce9c319ae\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\seonm\.gradle\caches\transforms-3\21a5ebb5a524ebd8de7a2e3bba375973\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\seonm\.gradle\caches\transforms-3\768dc506b50a3b1885cbb9ad3a0c2aae\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\seonm\.gradle\caches\transforms-3\4c4938b7680ffe51da48146096947009\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\seonm\.gradle\caches\transforms-3\5c9a19ace2a9919883e756b76fba1fba\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\7d9abecacb73df2670c7069b56306bf8\transformed\jetified-exoplayer-datasource-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\c841e5407dd1f23ba81b6959c1007fd5\transformed\jetified-exoplayer-extractor-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\ca3374238eb9a63178ebe6ef660da868\transformed\jetified-exoplayer-decoder-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\f6dabc0c9bf984ea9cfb4a54ec8b9bd0\transformed\jetified-exoplayer-database-2.18.7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\2d4c478336105cc2fdb8493da9a3ae32\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\seonm\.gradle\caches\transforms-3\93d96f1ef8c3cabfbc09b22dac936fd7\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\seonm\.gradle\caches\transforms-3\7613ce1b56e5b1a4304eac99789ce4cd\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\seonm\.gradle\caches\transforms-3\16ccf94bac8c617e1588331095cc422d\transformed\jetified-core-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\seonm\.gradle\caches\transforms-3\0be9ce72bcfc1f9cb1b1b21959e2eca5\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [org.microg:safe-parcel:1.7.0] C:\Users\seonm\.gradle\caches\transforms-3\ae111c9dfbd55ff0032cf79a631356e6\transformed\jetified-safe-parcel-1.7.0\AndroidManifest.xml:6:1-14:12
+INJECTED from D:\podly\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\podly\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\podly\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+	package
+		INJECTED from D:\podly\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:1:1-72:12
+		INJECTED from D:\podly\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\podly\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:1:1-72:12
+		INJECTED from D:\podly\android\app\src\debug\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:2:5-51
+		ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from D:\podly\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:1:1-72:12
+		INJECTED from D:\podly\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:3:5-67
+	android:name
+		ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:3:22-65
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:4:5-76
+	android:name
+		ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:4:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:6:5-91
+	android:name
+		ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:6:22-89
+queries
+ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:64:5-70:15
+MERGED from [:file_picker] D:\podly\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-19:15
+MERGED from [:file_picker] D:\podly\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-19:15
+MERGED from [androidx.media2:media2-session:1.2.1] C:\Users\seonm\.gradle\caches\transforms-3\f6bd443e452ba86bbd9b19f8ccf801fd\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:24:5-34:15
+MERGED from [androidx.media2:media2-session:1.2.1] C:\Users\seonm\.gradle\caches\transforms-3\f6bd443e452ba86bbd9b19f8ccf801fd\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:24:5-34:15
+intent#action:name:android.intent.action.PROCESS_TEXT+action:name:android.intent.action.TTS_SERVICE+data:mimeType:text/plain
+ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:65:9-69:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:66:13-72
+	android:name
+		ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:66:21-70
+action#android.intent.action.TTS_SERVICE
+ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:67:13-72
+	android:name
+		ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:67:21-69
+data
+ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:68:13-50
+	android:mimeType
+		ADDED from D:\podly\android\app\src\main\AndroidManifest.xml:68:19-48
+uses-sdk
+INJECTED from D:\podly\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\podly\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\podly\android\app\src\main\AndroidManifest.xml
+MERGED from [:app_links] D:\podly\build\app_links\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:app_links] D:\podly\build\app_links\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:audio_service] D:\podly\build\audio_service\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:audio_service] D:\podly\build\audio_service\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:just_audio] D:\podly\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:just_audio] D:\podly\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:audio_session] D:\podly\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:audio_session] D:\podly\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:audiotagger] D:\podly\build\audiotagger\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:audiotagger] D:\podly\build\audiotagger\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:device_info_plus] D:\podly\build\device_info_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:device_info_plus] D:\podly\build\device_info_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:file_picker] D:\podly\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:file_picker] D:\podly\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_archive] D:\podly\build\flutter_archive\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_archive] D:\podly\build\flutter_archive\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] D:\podly\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] D:\podly\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_tts] D:\podly\build\flutter_tts\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_tts] D:\podly\build\flutter_tts\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:on_audio_query_android] D:\podly\build\on_audio_query_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:on_audio_query_android] D:\podly\build\on_audio_query_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:package_info_plus] D:\podly\build\package_info_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:package_info_plus] D:\podly\build\package_info_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] D:\podly\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] D:\podly\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] D:\podly\build\permission_handler_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] D:\podly\build\permission_handler_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:share_plus] D:\podly\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:share_plus] D:\podly\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] D:\podly\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] D:\podly\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] D:\podly\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] D:\podly\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.media2:media2-session:1.2.1] C:\Users\seonm\.gradle\caches\transforms-3\f6bd443e452ba86bbd9b19f8ccf801fd\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-session:1.2.1] C:\Users\seonm\.gradle\caches\transforms-3\f6bd443e452ba86bbd9b19f8ccf801fd\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-common:1.2.1] C:\Users\seonm\.gradle\caches\transforms-3\c98c2aa6f1a6a4dfca8f80341c6b4979\transformed\jetified-media2-common-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-common:1.2.1] C:\Users\seonm\.gradle\caches\transforms-3\c98c2aa6f1a6a4dfca8f80341c6b4979\transformed\jetified-media2-common-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] C:\Users\seonm\.gradle\caches\transforms-3\1bc68864941e3325fce4a6235fb306bd\transformed\media-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] C:\Users\seonm\.gradle\caches\transforms-3\1bc68864941e3325fce4a6235fb306bd\transformed\media-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\0d18fa856fe62f42f9fa9954848e59c6\transformed\jetified-exoplayer-dash-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\0d18fa856fe62f42f9fa9954848e59c6\transformed\jetified-exoplayer-dash-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\1e384b3a506110113dfb7d513e7c773f\transformed\jetified-exoplayer-hls-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\1e384b3a506110113dfb7d513e7c773f\transformed\jetified-exoplayer-hls-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\8849cb01579d2d744c4785e0c6c1bf28\transformed\jetified-exoplayer-smoothstreaming-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\8849cb01579d2d744c4785e0c6c1bf28\transformed\jetified-exoplayer-smoothstreaming-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\8f654cd50c8c50f69b687fd5d7e8bdf1\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\8f654cd50c8c50f69b687fd5d7e8bdf1\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\seonm\.gradle\caches\transforms-3\3755ad51a16cffd0fd2bdd33973f3534\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\seonm\.gradle\caches\transforms-3\3755ad51a16cffd0fd2bdd33973f3534\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\seonm\.gradle\caches\transforms-3\56231e09ad1d05b3b3db7baceb9d1890\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\seonm\.gradle\caches\transforms-3\56231e09ad1d05b3b3db7baceb9d1890\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\c01818efc5384c5ebe19aff1f8b605cd\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\c01818efc5384c5ebe19aff1f8b605cd\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\c183f4fac09b44759fd6828f31212e63\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\c183f4fac09b44759fd6828f31212e63\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\c8c8d1e9b966ec8e08ebdea5d12fa83d\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\c8c8d1e9b966ec8e08ebdea5d12fa83d\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\0ea358e3b8e1785c42ecd5406de4cfbc\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\0ea358e3b8e1785c42ecd5406de4cfbc\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\seonm\.gradle\caches\transforms-3\3145243440544f9a5b1f443239ff55f7\transformed\jetified-activity-1.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] C:\Users\seonm\.gradle\caches\transforms-3\3145243440544f9a5b1f443239ff55f7\transformed\jetified-activity-1.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\ff15654e0bbf596d49edf77925cbbc52\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\ff15654e0bbf596d49edf77925cbbc52\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\bb9d34d5358e10572c94587d77779ad6\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\bb9d34d5358e10572c94587d77779ad6\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\4b7f5ffd0db640b85bd2ee36562c1306\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\4b7f5ffd0db640b85bd2ee36562c1306\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\seonm\.gradle\caches\transforms-3\8f30c94a2cf1bbfe5d80efce576be3b2\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\seonm\.gradle\caches\transforms-3\8f30c94a2cf1bbfe5d80efce576be3b2\transformed\jetified-core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\seonm\.gradle\caches\transforms-3\c9994c97fe31d00fbf1279363e93dabb\transformed\browser-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\seonm\.gradle\caches\transforms-3\c9994c97fe31d00fbf1279363e93dabb\transformed\browser-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window:1.2.0] C:\Users\seonm\.gradle\caches\transforms-3\c5bb16da9e7b1db1fb696192af869e68\transformed\jetified-window-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] C:\Users\seonm\.gradle\caches\transforms-3\c5bb16da9e7b1db1fb696192af869e68\transformed\jetified-window-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] C:\Users\seonm\.gradle\caches\transforms-3\e3ad1c7d4bb4de9b0b32216264cb6f59\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] C:\Users\seonm\.gradle\caches\transforms-3\e3ad1c7d4bb4de9b0b32216264cb6f59\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:19:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\seonm\.gradle\caches\transforms-3\bebcdf59e6a92b2442c50133071ef375\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\seonm\.gradle\caches\transforms-3\bebcdf59e6a92b2442c50133071ef375\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\seonm\.gradle\caches\transforms-3\9474196671e6d8d8b6c64bc244f62704\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\seonm\.gradle\caches\transforms-3\9474196671e6d8d8b6c64bc244f62704\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\seonm\.gradle\caches\transforms-3\a3e6b81c80496f6242e1a546865ac5d0\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\seonm\.gradle\caches\transforms-3\a3e6b81c80496f6242e1a546865ac5d0\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\02d3fc920e9a82283ba2729027f1244b\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\seonm\.gradle\caches\transforms-3\02d3fc920e9a82283ba2729027f1244b\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\seonm\.gradle\caches\transforms-3\8f8c96bd3bbf27d77a42777ce9c319ae\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\seonm\.gradle\caches\transforms-3\8f8c96bd3bbf27d77a42777ce9c319ae\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\seonm\.gradle\caches\transforms-3\21a5ebb5a524ebd8de7a2e3bba375973\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\seonm\.gradle\caches\transforms-3\21a5ebb5a524ebd8de7a2e3bba375973\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\seonm\.gradle\caches\transforms-3\768dc506b50a3b1885cbb9ad3a0c2aae\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\seonm\.gradle\caches\transforms-3\768dc506b50a3b1885cbb9ad3a0c2aae\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\seonm\.gradle\caches\transforms-3\4c4938b7680ffe51da48146096947009\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\seonm\.gradle\caches\transforms-3\4c4938b7680ffe51da48146096947009\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\seonm\.gradle\caches\transforms-3\5c9a19ace2a9919883e756b76fba1fba\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\seonm\.gradle\caches\transforms-3\5c9a19ace2a9919883e756b76fba1fba\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\7d9abecacb73df2670c7069b56306bf8\transformed\jetified-exoplayer-datasource-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\7d9abecacb73df2670c7069b56306bf8\transformed\jetified-exoplayer-datasource-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\c841e5407dd1f23ba81b6959c1007fd5\transformed\jetified-exoplayer-extractor-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\c841e5407dd1f23ba81b6959c1007fd5\transformed\jetified-exoplayer-extractor-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\ca3374238eb9a63178ebe6ef660da868\transformed\jetified-exoplayer-decoder-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\ca3374238eb9a63178ebe6ef660da868\transformed\jetified-exoplayer-decoder-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\f6dabc0c9bf984ea9cfb4a54ec8b9bd0\transformed\jetified-exoplayer-database-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\f6dabc0c9bf984ea9cfb4a54ec8b9bd0\transformed\jetified-exoplayer-database-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\2d4c478336105cc2fdb8493da9a3ae32\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\2d4c478336105cc2fdb8493da9a3ae32\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\seonm\.gradle\caches\transforms-3\93d96f1ef8c3cabfbc09b22dac936fd7\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\seonm\.gradle\caches\transforms-3\93d96f1ef8c3cabfbc09b22dac936fd7\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\seonm\.gradle\caches\transforms-3\7613ce1b56e5b1a4304eac99789ce4cd\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\seonm\.gradle\caches\transforms-3\7613ce1b56e5b1a4304eac99789ce4cd\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\seonm\.gradle\caches\transforms-3\16ccf94bac8c617e1588331095cc422d\transformed\jetified-core-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\seonm\.gradle\caches\transforms-3\16ccf94bac8c617e1588331095cc422d\transformed\jetified-core-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\seonm\.gradle\caches\transforms-3\0be9ce72bcfc1f9cb1b1b21959e2eca5\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\seonm\.gradle\caches\transforms-3\0be9ce72bcfc1f9cb1b1b21959e2eca5\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [org.microg:safe-parcel:1.7.0] C:\Users\seonm\.gradle\caches\transforms-3\ae111c9dfbd55ff0032cf79a631356e6\transformed\jetified-safe-parcel-1.7.0\AndroidManifest.xml:10:5-12:41
+MERGED from [org.microg:safe-parcel:1.7.0] C:\Users\seonm\.gradle\caches\transforms-3\ae111c9dfbd55ff0032cf79a631356e6\transformed\jetified-safe-parcel-1.7.0\AndroidManifest.xml:10:5-12:41
+INJECTED from D:\podly\android\app\src\debug\AndroidManifest.xml
+INJECTED from D:\podly\android\app\src\debug\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\podly\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\podly\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\podly\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\podly\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\podly\android\app\src\debug\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from D:\podly\android\app\src\debug\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:file_picker] D:\podly\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-11:38
+	android:maxSdkVersion
+		ADDED from [:file_picker] D:\podly\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-35
+	android:name
+		ADDED from [:file_picker] D:\podly\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-64
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
+ADDED from [:file_picker] D:\podly\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-18:18
+action#android.intent.action.GET_CONTENT
+ADDED from [:file_picker] D:\podly\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-72
+	android:name
+		ADDED from [:file_picker] D:\podly\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:21-69
+intent#action:name:android.media.browse.MediaBrowserService
+ADDED from [androidx.media2:media2-session:1.2.1] C:\Users\seonm\.gradle\caches\transforms-3\f6bd443e452ba86bbd9b19f8ccf801fd\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:25:9-27:18
+action#android.media.browse.MediaBrowserService
+ADDED from [androidx.media2:media2-session:1.2.1] C:\Users\seonm\.gradle\caches\transforms-3\f6bd443e452ba86bbd9b19f8ccf801fd\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:26:13-79
+	android:name
+		ADDED from [androidx.media2:media2-session:1.2.1] C:\Users\seonm\.gradle\caches\transforms-3\f6bd443e452ba86bbd9b19f8ccf801fd\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:26:21-76
+intent#action:name:androidx.media2.session.MediaSessionService
+ADDED from [androidx.media2:media2-session:1.2.1] C:\Users\seonm\.gradle\caches\transforms-3\f6bd443e452ba86bbd9b19f8ccf801fd\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:28:9-30:18
+action#androidx.media2.session.MediaSessionService
+ADDED from [androidx.media2:media2-session:1.2.1] C:\Users\seonm\.gradle\caches\transforms-3\f6bd443e452ba86bbd9b19f8ccf801fd\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:29:13-82
+	android:name
+		ADDED from [androidx.media2:media2-session:1.2.1] C:\Users\seonm\.gradle\caches\transforms-3\f6bd443e452ba86bbd9b19f8ccf801fd\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:29:21-79
+intent#action:name:androidx.media2.session.MediaLibraryService
+ADDED from [androidx.media2:media2-session:1.2.1] C:\Users\seonm\.gradle\caches\transforms-3\f6bd443e452ba86bbd9b19f8ccf801fd\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:31:9-33:18
+action#androidx.media2.session.MediaLibraryService
+ADDED from [androidx.media2:media2-session:1.2.1] C:\Users\seonm\.gradle\caches\transforms-3\f6bd443e452ba86bbd9b19f8ccf801fd\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:32:13-82
+	android:name
+		ADDED from [androidx.media2:media2-session:1.2.1] C:\Users\seonm\.gradle\caches\transforms-3\f6bd443e452ba86bbd9b19f8ccf801fd\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:32:21-79
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\8f654cd50c8c50f69b687fd5d7e8bdf1\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\2d4c478336105cc2fdb8493da9a3ae32\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\2d4c478336105cc2fdb8493da9a3ae32\transformed\jetified-exoplayer-common-2.18.7\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\seonm\.gradle\caches\transforms-3\8f654cd50c8c50f69b687fd5d7e8bdf1\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:22-76
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\seonm\.gradle\caches\transforms-3\a3e6b81c80496f6242e1a546865ac5d0\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\seonm\.gradle\caches\transforms-3\a3e6b81c80496f6242e1a546865ac5d0\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\seonm\.gradle\caches\transforms-3\a3e6b81c80496f6242e1a546865ac5d0\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.example.podly.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\seonm\.gradle\caches\transforms-3\a3e6b81c80496f6242e1a546865ac5d0\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\seonm\.gradle\caches\transforms-3\a3e6b81c80496f6242e1a546865ac5d0\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\seonm\.gradle\caches\transforms-3\a3e6b81c80496f6242e1a546865ac5d0\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\seonm\.gradle\caches\transforms-3\a3e6b81c80496f6242e1a546865ac5d0\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\seonm\.gradle\caches\transforms-3\a3e6b81c80496f6242e1a546865ac5d0\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.example.podly.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\seonm\.gradle\caches\transforms-3\a3e6b81c80496f6242e1a546865ac5d0\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\seonm\.gradle\caches\transforms-3\a3e6b81c80496f6242e1a546865ac5d0\transformed\core-1.13.1\AndroidManifest.xml:26:22-94

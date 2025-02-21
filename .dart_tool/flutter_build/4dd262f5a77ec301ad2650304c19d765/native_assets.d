@@ -1,0 +1,1 @@
+ D:\\podly\\.dart_tool\\flutter_build\\4dd262f5a77ec301ad2650304c19d765\\native_assets.yaml: 
