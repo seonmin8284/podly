@@ -1,16 +1,120 @@
-# podly
+# PODLY(Mobile Frontend)
 
-A new Flutter project.
+### 📌 개요
+Podly는 AI 기반 음성 뉴스 및 맞춤형 정보 제공 서비스로, 사용자가 터치 없이 음성 명령만으로 원하는 뉴스를 듣고 정보를 검색할 수 있도록 설계되었습니다.
+이 서비스는 AI 기반 개인화 큐레이션, TTS 기술을 활용한 팟캐스트 자동 생성, 음성 인터랙티브 뉴스 안내 기능을 제공하여 이동 중에도 최적화된 정보 소비 경험을 제공합니다.
+Podly는 기존 뉴스 서비스, 팟캐스트 플랫폼, 음성 비서 서비스와 차별화된 방식으로 정보를 제공하며, 글로벌 시장 진출과 B2B 파트너십을 통한 확장 가능성을 고려하고 있습니다.
+<br>
 
-## Getting Started
+### 📌 Mobile Frontend
+Podly의 모바일 프론트엔드는 **Flutter**를 기반으로 개발되어 iOS와 Android에서 **일관된 사용자 경험**을 제공하며, 직관적인 UI/UX 설계를 통해 ~~음성 명령을 활용한~~ 간편한 정보 검색 및 뉴스 청취가 가능합니다.
+주요 기능으로는 **개인화된 뉴스 피드를 제공하는 대시보드, 인터랙션을 위한 챗봇 인터페이스, 그리고 팟캐스트 형식의 자동 생성된 음성을 쉽게 청취할 수 있는 플레이어**가 포함됩니다.
 
-This project is a starting point for a Flutter application.
+<br>
 
-A few resources to get you started if this is your first Flutter project:
+![image](https://github.com/user-attachments/assets/a1a49cc8-af88-4a81-a19b-28a3005c3bc9)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 📌 프로젝트 목표
+
+✅ Flutter, React, FastAPI, LangChain, RAG 등의 기술 스택을 활용해 사용자 인터페이스(UI)와 백엔드 시스템을 구축. 
+
+✅ 챗봇 기능을 구현하기 위해 자연어 처리(NLP) 기술을 최적화
+
+✅ 날씨 정보와 개인 일정을 연동해 사용자 맞춤형 경험을 강화
+
+<br>
+
+### 📌 구현 방안
+
+최신 인공지능(AI) 기술과 고급 텍스트-음성 변환(TTS) 기술을 활용해 개인화된 오디오 콘텐츠를 제공
+하는 사업모델을 구현. 이 모델은 AI 기반의 음성 인식, 자연어 처리(NLP), TTS, 목소리 변환 기술, 그
+리고 다양한 웹 기반 데이터 중심으로 개발.
+
+
+✅ AI 기반 음성 인식 및 자연어 처리(NLP)
+- 음성 인식 기술: OpenAI의 Whisper와 같은 고성능 음성 인식 모델을 사용해 사용자의 음성을 텍스
+트로 변환. Whisper는 다양한 언어와 악센트를 정확하게 인식하며, 포들리의 음성 기반 상호작용
+기능을 지원하는 핵심 기술로 활용됨.
+
+- 자연어 처리(NLP): OpenAI의 LLM 모델(OpenAI's GPT 시리즈)뿐만 아니라 Upstage의 Solar, Google
+의 Gemma2, Microsoft의 Phi 3.5, Meta의 Llama 3.1 등 다양한 open-source LLM 모델을 테스트해
+최적의 성능을 제공하는 모델을 선택할 예정. 이 NLP 모델들은 사용자의 자연어 질문에 대한 실시
+간 답변 제공, 콘텐츠 생성, 그리고 개인화된 추천 시스템 구현에 사용됨.
+
+
+✅ 텍스트-음성 변환(TTS) 및 목소리 변환 기술
+
+- 텍스트-음성 변환(TTS): ElevenLabs, TypeCast 등의 고급 TTS 기술을 활용해 자연스럽고 감정이 담
+긴 음성을 생성. 텍스트를 다양한 스타일의 음성으로 변환할 수 있으며, 사용자에게 맞춤형 음성 경
+험을 제공.
+
+- 목소리 변환: 사용자에게 다양한 목소리 옵션을 제공하기 위해 목소리 변환 기술을 고려. 사용자는
+선호하는 성우나 유명인의 목소리로 콘텐츠를 들을 수 있으며, 자신만의 맞춤형 음성을 선택 가능.
+이를 통해 콘텐츠의 몰입감과 사용자 경험을 개선.
+
+✅ 공공데이터 활용
+
+- 데이터 수집 및 처리: 정부 및 공공기관의 데이터를 활용해 경제, 환경, 교육, 건강, 교통, 문화 등
+다양한 주제의 콘텐츠를 제작. 예를 들어, 공공데이터포털, Data.gov, AIHUB와 같은 플랫폼을 통해
+데이터를 수집.
+
+- 데이터 분석 및 통합: 수집된 데이터는 Python의 Pandas, NumPy 라이브러리를 사용해 정제 및 분
+석. 또한, 데이터 시각화 도구인 Tableau나 Power BI를 사용해 인사이트를 도출. 이를 통해 신뢰성
+높은 정보와 함께 개인화된 콘텐츠를 제작.
+
+- 콘텐츠 개인화: 공공데이터와 사용자의 청취 기록, 개인 일정, 위치 정보를 결합해 개인화된 콘텐츠
+를 제공. 예를 들어, 사용자의 위치를 기반으로 한 날씨 정보와 교통 정보를 결합해 출퇴근 시간에
+맞춘 맞춤형 팟캐스트를 제작 가능. 또한, 앱 내 사용자 행동을 분석해 추천 알고리즘을 통해 각 사
+용자에게 가장 관련성 높고 흥미로운 맞춤형 뉴스와 콘텐츠를 제공.
+
+![Podly 데이터 수집부터 배포까지의 종합 프로세스](https://github.com/user-attachments/assets/4441f408-8d58-4f27-80e3-3b4c4b8791d7)
+
+<br>
+
+### 📌 기술력
+
+Podly의 기술적 역량은 최신 인공지능 및 TTS 기술을 기반으로 하며, 이를 통해 고품질의 개인화된 오
+디오 콘텐츠를 제공하는 데 중점을 가짐.
+
+✅ 음성 인식 및 NLP 기술
+
+OpenAI의 Whisper를 사용해 음성을 텍스트로 변환하고, 다양한 LLM 모델(OpenAI, Solar, Gemma2,
+Phi 3.5, Llama 3.1 등)과 Embedding 모델 등을 테스트해 최적의 NLP 모델을 선택하여 사용함. 이를
+통해 실시간 음성 인식, 자연어 처리, 그리고 사용자의 질의응답 및 콘텐츠 추천 기능을 구현함.
+
+✅ LLM과 RAG 기법을 활용한 지능형 뉴스 큐레이션
+
+사전 학습된 대규모 언어 모델(LLM)에 RAG(Retrieval-Augmented Generation) 기법을 활용해 문서를
+기반으로 텍스트를 생성. RAG 기법을 사용해 외부 문서에서 관련 정보를 검색하고 이를 바탕으로 응
+답을 생성해, 사전 학습된 지식에 최신 정보를 결합해 더 정확한 결과를 제공함.
+
+1. 주요 뉴스 요약: 실시간 주요 뉴스를 간략히 요약하여 제공
+
+2. 맞춤형 뉴스 큐레이션: 사용자의 관심사에 맞춰 뉴스를 검색하고 선별
+
+3. 심층 질의응답(Q&A): 뉴스 원문을 바탕으로 사용자의 질문에 답변
+
+4. 확장된 정보 제공: 원문에 없는 관련 정보도 웹 검색을 통해 찾아 제공
+
+![Podly Advanced RAG 구현과정](https://github.com/user-attachments/assets/79b2b203-5e0c-41ae-be02-817f6f9b895d)
+
+✅ 텍스트-음성 변환 및 목소리 변환 기술 :　ElevenLabs, Typecast등의 TTS 기술을 활용해 고품질의 음성을 생성하며, 다양한 목소리 옵션을 제공해 사용자에게 더욱 몰입감 있는 청취 경험을 제공. 목
+소리 변환 기술은 개인화된 음성 경험을 통해 사용자 만족도를 높이는 데 중요한 역할을 함.
+
+✅ 데이터 분석 및 개인화 : 다양한 공공데이터를 분석해 신뢰성 높은 콘텐츠를 제작하고, 이를 사용자
+맞춤형 경험과 결합해 고도로 개인화된 서비스를 제공함. 데이터 분석 도구를
+
+![Podly Software Achitecture](https://github.com/user-attachments/assets/f1d87cca-fd23-4864-b488-ecb3e5a2070f)
+
+
+### 📌 모바일 시연영상
+
+https://github.com/user-attachments/assets/b232a68f-71d1-4955-93a2-261b91af76bd
+
+https://github.com/user-attachments/assets/89a19942-32d7-4a92-989c-78b4c3e772aa
+
+
+
+
